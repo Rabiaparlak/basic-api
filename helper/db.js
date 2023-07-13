@@ -1,8 +1,8 @@
 const SequelizeAuto = require("sequelize-auto");
 const Sequelize = require("sequelize");
 const sequelize = new Sequelize(
-  "", // database_name
-  "", // username
+  "astroloji", // database_name
+  "root", // username
   "", //password
   {
     host: "", // web-server
@@ -18,8 +18,8 @@ const sequelize = new Sequelize(
 
 // ---------- AUTOMATION SAVE FROM DB TO MODELS ---------- //
 const auto = new SequelizeAuto(
-  "", // database_name
-  "", // username
+  "astroloji", // database_name
+  "root", // username
   "", // password
   {
     host: "localhost", // web-server
